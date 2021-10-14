@@ -1,0 +1,11 @@
+Basic Livery Environment:
+
+Highly modular model assets which can be replaced and rearranged with ease.
+You add or delete an environment by going into your scene > Canvas > Change Background. You will find an editable array of environments.
+You can remove this environment by hitting on the subtract button on element 1.
+By doing so you will have only the first environment.
+The asphalt has a smoothness texture applied to it and albedo and normal are on the secondary map so they do not interfere with the scaling of the smoothness map.
+To get the most out of the asphalt, you can use a terrain object and paint smoothness to create water affect. Use SSR in the post processing to get watery reflections.
+Please Note:
+The post processing stack's SSR flickers and artefacts. Use post processing stack v1's SSR if possible. 
+Even though the environment is lightweight in terms of textures and models, you could stand to gain a few more frames per second on the first Background scene and cut out 80mb on the project file.

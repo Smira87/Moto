@@ -1,0 +1,26 @@
+Quick Reference :
+
+Mouse Right Click – Orbit
+Mouse Middle Mouse Button – Zoom In/Out, Pan
+Mouse Left Click – Paste Decal
+Left Shift + Mouse Left Click Drag - Zoom In/Out Decal
+Left Control + Mouse Left Click Drag - Rotate Decal 
+Z – undo Decal
+WASD - Scale Decal on X/Y Axes
+1/2/3 Number Keys or Numeric Keypad – Snap View
+O – Orthographic Mode
+
+To add a custom sticker to your vehicle, drag and drop it in Assets/Simple Livery Creator/Sprites/Decal Library. Change the imported texture type to Sprite (2D and UI) and depending on the size of the image, pixels per unit from 1000 (For Smaller Res stickers) -2000 (For Larger Res stickers). Click on Update Decal Libray > Update on the top menu bar and you will have the sticker in your Decals top bar.
+
+To save the livery, click on Save (UI Button on the Left panel). The livery will be available to you in the MyLiveries folder.
+
+To make a build, please comment out the following lines in the LiveryCreator.cs : 315, 323 to 329
+
+To make the asset look realistic we used post processing stack v1's SSR (screen space reflections) which are relatively free from artefacts. You could alternatively use a terrain collider to paint of water on the asphalt as well as paint road markings on it to take the realism of the asset to the next level.
+
+Please contact us on our support website for questions or suggestions. We typically reply to requests with support in a few hours. We are working to include a whole library of sprites as artwork so keep this package updated for the latest and greatest.
+
+If you enjoyed the asset please leave a rating. We are always overjoyed to see our customers like our products and it motivates us to improve the package and keep on adding newer sprites.
+
+Offered by - 
+AiKodex
